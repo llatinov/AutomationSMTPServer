@@ -8,7 +8,8 @@ Automation SMTP Server is simple SMTP server run as console application. It acts
 1. From your automation test project add reference to AutomationSMTPServer.exe.
 2. Delete previous emails
 
-    	private string currentDir =	Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar;
+    	private string currentDir =	
+			Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar;
     	private string mailsDir = currentDir + "temp";
     	  
     	if (Directory.Exists(mailsDir))
