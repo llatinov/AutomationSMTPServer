@@ -4,6 +4,13 @@ Simple SMTP server that can be used for email verification of automated testing.
 ## About
 Automation SMTP Server is simple SMTP server run as console application. It acts as SMTP server saving all email messages as EML file to disk. With build in EMLFile class you can later read those mails and verify them in your automation testing project.
 
+## Configuration
+
+
+- Port – Automation SMTP Server have a config file in which port on which server listens can be configured. Port also can be passed as argument when running it from command prompt. It port is not provided in one of both ways 25 is taken by default.
+- Emails directory – emails are saved in folder named "temp" in same directory where Automation SMTP Server EXE is. This cannot be changed.
+
+
 ## Usage
 1. From your automation test project add reference to AutomationSMTPServer.exe.
 2. Delete previous emails
